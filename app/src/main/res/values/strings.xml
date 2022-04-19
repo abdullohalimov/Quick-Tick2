@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Quick-Tick</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Repeat">
+        <item>Repeat</item>
+        <item>Do Not Repeat</item>
+<!--        <item>Swift</item>-->
+<!--        <item>Python</item>-->
+<!--        <item>Scala</item>-->
+<!--        <item>Perl</item>-->
+    </string-array>
+
+    <string-array name="Tags">
+        <item>Break</item>
+        <item>Commuting</item>
+        <item>Eating</item>
+        <item>Housework</item>
+        <item>Internet</item>
+        <item>Reading</item>
+        <item>Relationship</item>
+        <item>Sleep</item>
+        <item>Studying</item>
+        <item>Training</item>
+        <item>TV</item>
+    </string-array>
+</resources>

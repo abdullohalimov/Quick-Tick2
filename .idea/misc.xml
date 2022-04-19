@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/drawable/baseline_navigate_before_24.xml" value="0.102" />
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/layout/block_adding_activity.xml" value="0.3625" />
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/layout/fragment_blocks.xml" value="0.3625" />
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/layout/fragment_calendar.xml" value="0.3625" />
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/layout/fragment_schedule.xml" value="0.25" />
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/layout/fragment_tags.xml" value="0.3625" />
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/layout/fragment_tasks.xml" value="0.3625" />
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/layout/fragment_templates.xml" value="0.3625" />
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/layout/schedule_item.xml" value="0.5" />
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/layout/switch_item.xml" value="0.3625" />
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/layout/tags_recycler_view.xml" value="0.25" />
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/layout/task_adding_activity.xml" value="0.25" />
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/menu/blocks_toolbar_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/menu/calendar_toolbar_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/menu/schedule_toolbar_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/menu/tags_toolbar_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/menu/tasks_toolbar_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/menu/templates_toolbar_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/menu/toolbar_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/Abdulloh/AndroidStudioProjects/QuickTick/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1845" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
