@@ -9,7 +9,7 @@
     <item
         android:id="@+id/action_today"
         app:showAsAction="always"
-        android:icon="@drawable/baseline_location_on_black_24dp"
+        android:icon="@drawable/event_accepted"
         android:title="TODO" />
 
 </menu>

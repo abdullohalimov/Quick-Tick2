@@ -3,19 +3,19 @@
 
     <item
         android:id="@+id/schedule_bot"
-        android:icon="@android:drawable/ic_menu_today"
+        android:icon="@drawable/today"
         android:title="Vazifa" />
 
     <item
         android:id="@+id/calendar_bot"
-        android:icon="@android:drawable/ic_menu_my_calendar"
+        android:icon="@drawable/calendar"
         android:title="Kalendar" />
     <item
         android:id="@+id/dialer_bot"
-        android:icon="@android:drawable/ic_dialog_dialer"
+        android:icon="@drawable/tear_off_calendar"
         android:title="Vazifalar" />
     <item
         android:id="@+id/tags_bot"
-        android:icon="@android:drawable/ic_input_delete"
+        android:icon="@drawable/tags"
         android:title="Yorliqlar" />
 </menu>

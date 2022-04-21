@@ -12,9 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:menu="@menu/schedule_toolbar_menu"
         app:subtitle="QuickTick" />
 
     <androidx.cardview.widget.CardView
@@ -40,16 +40,15 @@
 
 
     <ImageView
-        android:id="@+id/imageButton"
+        android:id="@+id/calendar_back"
         android:layout_width="58dp"
         android:layout_height="49dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="10dp"
         android:orientation="vertical"
-        android:rotation="180"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:srcCompat="@drawable/baseline_navigate_next_black_48" />
+        app:srcCompat="@drawable/back_icon" />
 
     <TextView
         android:id="@+id/date_field"
@@ -58,8 +57,8 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintEnd_toStartOf="@+id/calendar_next"
+        app:layout_constraintStart_toEndOf="@+id/calendar_back"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         tools:text="Juma, 15 Aprel, 2022"
         android:gravity="center"
@@ -67,14 +66,15 @@
     />
 
     <ImageView
-        android:id="@+id/imageButton3"
+        android:id="@+id/calendar_next"
         android:layout_width="58dp"
         android:layout_height="49dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="15dp"
+        android:clickable="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:srcCompat="@drawable/baseline_navigate_next_black_48" />
+        app:srcCompat="@drawable/next" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/schedule_recycle"
@@ -86,14 +86,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/free_time_card" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    <ImageView
         android:id="@+id/schedule_float_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:clickable="true"
-        android:src="@android:drawable/ic_menu_add"
+        android:src="@drawable/plus"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:focusable="true"

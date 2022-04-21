@@ -8,15 +8,21 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.quick_tick.R
 
-class schedule_adapter(private val mList: List<scheduled_items>): RecyclerView.Adapter<schedule_adapter.ViewHolder>() {
+class schedule_adapter(private var mList: List<scheduled_items>): RecyclerView.Adapter<schedule_adapter.ViewHolder>() {
+
+
 
     //create new views
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         // inflates the schedule_item view
         // that is used to hold list item
         val view = LayoutInflater.from(parent.context).inflate(R.layout.schedule_item, parent, false)
+
         return ViewHolder(view)
     }
+
+
+
     // binds the list items to a view
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val scheduledItems = mList[position]
@@ -51,5 +57,10 @@ class schedule_adapter(private val mList: List<scheduled_items>): RecyclerView.A
         val schd_end = itemView.findViewById<TextView>(R.id.schd_to)
 
 
+    }
+
+    fun update(mListt: ArrayList<scheduled_items>) {
+        mList = mListt
+        notifyDataSetChanged()
     }
 }

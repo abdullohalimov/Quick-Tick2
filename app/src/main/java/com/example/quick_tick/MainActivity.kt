@@ -19,6 +19,8 @@ class MainActivity : AppCompatActivity() {
         val calendar_frag = Calendar_fragment()
         val blocks_frag = Blocks_fragment()
         val tags_frag = Tags_fragment()
+        bottom_navbar.setItemIconTintList(null);
+
 
         setCurrentFragment(schedule_frag)
 

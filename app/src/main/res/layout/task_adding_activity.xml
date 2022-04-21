@@ -21,7 +21,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
-        android:src="@drawable/baseline_navigate_next_black_48"
+        android:src="@drawable/next"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/new_task_toolbar" />
 
@@ -31,7 +31,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
-        android:src="@drawable/baseline_navigate_next_black_48"
+        android:src="@drawable/next"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/name_card" />
 
@@ -41,7 +41,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
-        android:src="@drawable/baseline_navigate_next_black_48"
+        android:src="@drawable/next"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/date_card" />
 
@@ -51,7 +51,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
-        android:src="@drawable/baseline_navigate_next_black_48"
+        android:src="@drawable/next"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/time_start_card" />
 
@@ -62,7 +62,7 @@
 
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
-        android:src="@drawable/baseline_navigate_next_black_48"
+        android:src="@drawable/next"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/repeat_card" />
 
@@ -72,7 +72,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="12dp"
-        android:src="@drawable/baseline_navigate_next_black_48"
+        android:src="@drawable/next"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 

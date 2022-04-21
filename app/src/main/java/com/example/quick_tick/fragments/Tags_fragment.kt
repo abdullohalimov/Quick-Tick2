@@ -53,18 +53,18 @@ class Tags_fragment : Fragment() {
     }
 
     private fun add_primary_tags(data: ArrayList<ItemsViewModel>) {
-        data.add(ItemsViewModel(R.drawable.baseline_crop_landscape_black_48, "Break"))
-        data.add(ItemsViewModel(R.drawable.baseline_crop_landscape_black_48, "Commuting"))
-        data.add(ItemsViewModel(R.drawable.baseline_crop_landscape_black_48, "Eating"))
-        data.add(ItemsViewModel(R.drawable.baseline_crop_landscape_black_48, "Housework"))
-        data.add(ItemsViewModel(R.drawable.baseline_crop_landscape_black_48, "Internet"))
-        data.add(ItemsViewModel(R.drawable.baseline_crop_landscape_black_48, "Reading"))
-        data.add(ItemsViewModel(R.drawable.baseline_crop_landscape_black_48, "Relationship"))
-        data.add(ItemsViewModel(R.drawable.baseline_crop_landscape_black_48, "Sleep"))
-        data.add(ItemsViewModel(R.drawable.baseline_crop_landscape_black_48, "Studying"))
-        data.add(ItemsViewModel(R.drawable.baseline_crop_landscape_black_48, "Training"))
-        data.add(ItemsViewModel(R.drawable.baseline_crop_landscape_black_48, "TV"))
-        data.add(ItemsViewModel(R.drawable.baseline_crop_landscape_black_48, "Work"))
+        data.add(ItemsViewModel(R.drawable.next, "Break"))
+        data.add(ItemsViewModel(R.drawable.next, "Commuting"))
+        data.add(ItemsViewModel(R.drawable.next, "Eating"))
+        data.add(ItemsViewModel(R.drawable.next, "Housework"))
+        data.add(ItemsViewModel(R.drawable.next, "Internet"))
+        data.add(ItemsViewModel(R.drawable.next, "Reading"))
+        data.add(ItemsViewModel(R.drawable.next, "Relationship"))
+        data.add(ItemsViewModel(R.drawable.next, "Sleep"))
+        data.add(ItemsViewModel(R.drawable.next, "Studying"))
+        data.add(ItemsViewModel(R.drawable.next, "Training"))
+        data.add(ItemsViewModel(R.drawable.next, "TV"))
+        data.add(ItemsViewModel(R.drawable.next, "Work"))
     }
 
 
